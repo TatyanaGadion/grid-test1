@@ -361,6 +361,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   overflow-y: scroll;
+  line-height: 1.2em;
 }
 
 body {
@@ -400,7 +401,7 @@ a {
   top: 0;
 }
 .header-content__title {
-  margin: 0 0 66px;
+  margin: 0 0 53px;
   text-align: center;
 }
 .header-content__actions {
@@ -431,13 +432,13 @@ a {
 }
 
 .header-logo {
-  letter-spacing: 0.25em;
-  font-size: 24px;
+  letter-spacing: 0.22em;
+  font-size: 1.5rem;
 }
 .header-logo__accent {
   display: inline-block;
-  margin-right: 7px;
-  padding: 17px 5px 17px 5px;
+  margin-right: 4px;
+  padding: 14px 1px 13px 5px;
   border: 3px solid #d53d27;
 }
 
@@ -456,7 +457,7 @@ a {
           justify-content: end;
   grid-template-columns: repeat(auto-fit, minmax(50px, -webkit-max-content));
   grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
-  margin: 0;
+  margin: 0 -20px 0 0;
   padding: 0;
   list-style: none;
 }
@@ -469,7 +470,7 @@ a {
   -webkit-transition: color 0.5s;
   -o-transition: color 0.5s;
   transition: color 0.5s;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.09em;
   font-size: 18px;
 }
 .header-navbar__link:hover, .header-navbar__link:focus {
