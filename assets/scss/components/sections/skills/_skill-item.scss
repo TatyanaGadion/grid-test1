@@ -14,6 +14,16 @@
 
     margin: 0;
 
+    @include md-min {
+      font-size: 1.25rem;
+    }
+
+    @include md {
+      font-size: 1.125rem;
+    }
+
+    
+
     @include abs-position;
   }
 
@@ -30,6 +40,9 @@
 
   &__image {
     transition: transform 0.5s;
+
+    background-position: center;
+    background-size: cover;
 
     @include abs-position;
   }
@@ -60,6 +73,6 @@
 @for $i from 1 through 9 {
   .skill-item:nth-of-type(#{$i}) {
     grid-area: a#{$i};
-     }
+  }
 }
 
