@@ -9,10 +9,12 @@
   background-color: $color-primary;
 
   &__title {
-    position: relative;
+    // position: relative;
     z-index: 1;
 
     margin: 0;
+
+    letter-spacing: 0.1em;
 
     @include md-min {
       font-size: 1.25rem;
@@ -21,7 +23,7 @@
       font-size: 1.125rem;
     }
     @include abs-position;
-  }
+  } 
 
   &__link {
     display: flex;
@@ -51,6 +53,7 @@
 
     @include abs-position;
   }
+  
   &:hover {
     .skill-item__overlay {
       opacity: 0.95;
