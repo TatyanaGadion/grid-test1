@@ -15,9 +15,7 @@ html {
 }
 
 body {
-  letter-spacing: 0.1em;
-
-  color: $color-primary;
+  color: $color-gray;
   background-color: $color-light;
 }
 
@@ -41,28 +39,44 @@ h1 {
 
 h2 {
   letter-spacing: 0.1em;
+
   color: #2d3651;
+
   font-family: "Roboto Slab", serif;
   line-height: 1.2em;
 
   @include lg-min {
     margin-bottom: 3rem;
+
     font-size: 2.5rem;
   }
   @include lg-md {
     margin-bottom: 2.625rem;
+
     font-size: 2rem;
   }
   @include md-sm {
     margin-bottom: 2.25rem;
+
     font-size: 1.5rem;
   }
   @include sm {
     margin-bottom: 2.25rem;
+
     text-align: center;
+
     font-size: 1.5rem;
   }
 }
+
+h3 {
+  letter-spacing: 0.05em;
+
+  color: #637588;
+
+  font-size: 1.125rem;
+}
+
 p {
   color: #637588;
 }
